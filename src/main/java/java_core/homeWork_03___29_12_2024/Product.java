@@ -6,21 +6,34 @@ public class Product {
 
     String name;
     BigDecimal price;
+
+
+
     int quantity;
 
+    public String getName() {
+        return name;
+    }
 
-    public Product(String name, BigDecimal price, int quantity) {
+    public void setName(String name) {
         this.name = name;
+    }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
+
+    public void setPrice(BigDecimal price) {
         this.price = price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
-
-    public static void main(String[] args) {
-        Product product = new Product("ball", new BigDecimal("2.00"), 20);
-        System.out.println(product.getTotalPrice());
-        System.out.println(product.reduceQuantity(5));
-    }
-
     public BigDecimal getTotalPrice() {
         return price.multiply(BigDecimal.valueOf(quantity));
     }
@@ -33,6 +46,13 @@ public class Product {
         return quantity;
     }
 
+
+
+    public Product(String name, BigDecimal price, int quantity) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
     @Override
     public String toString() {
         return "Product{" +
@@ -41,4 +61,5 @@ public class Product {
                 ", quantity=" + quantity +
                 '}';
     }
+
 }
