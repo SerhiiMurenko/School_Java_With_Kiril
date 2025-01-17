@@ -1,16 +1,16 @@
 package java_core.homeWork_12_01_2025;
 
 public class Rectangle extends Shape {
-    Double wigth;
-    Double height;
+    double wigth;
+    double height;
 
-    public Rectangle(Double wigth, Double height) {
+    public Rectangle(double wigth, double height) {
         this.wigth = wigth;
         this.height = height;
     }
 
     @Override
-    public Double getArea() {
+    public double getArea() {
         return wigth * height;
     }
 

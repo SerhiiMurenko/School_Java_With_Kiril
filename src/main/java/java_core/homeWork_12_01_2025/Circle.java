@@ -1,14 +1,14 @@
 package java_core.homeWork_12_01_2025;
 
 public class Circle extends Shape {
-    public Double radius;
+    public double radius;
 
-    public Circle(Double radius){
+    public Circle(double radius){
         this.radius = radius;
     }
 
     @Override
-    public Double getArea() {
+    public double getArea() {
         return Math.PI * (radius * radius);
     }
 

@@ -4,7 +4,7 @@ public class Car extends Vechicle {
 
     public int numberOfDoors;
 
-    public Car(Double speed, Double fuel, int numberOfDoors) {
+    public Car(double speed, double fuel, int numberOfDoors) {
         super(speed, fuel);
         this.numberOfDoors = numberOfDoors;
     }

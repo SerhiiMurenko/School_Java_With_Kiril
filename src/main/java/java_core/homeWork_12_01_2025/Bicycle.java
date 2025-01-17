@@ -4,7 +4,7 @@ public class Bicycle extends Vechicle{
 
     private String typeRoad;
 
-    public Bicycle(Double speed,String typeRoad){
+    public Bicycle(double speed,String typeRoad){
         super(speed);
         this.typeRoad = typeRoad;
            }

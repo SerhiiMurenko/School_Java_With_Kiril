@@ -2,14 +2,14 @@ package java_core.homeWork_12_01_2025;
 
 public class Vechicle {
 
-    private Double speed;
-    private Double fuel;
+    private double speed;
+    private double fuel;
 
-    public Vechicle(Double speed) {
+    public Vechicle(double speed) {
         this.speed = speed;
     }
 
-    public Vechicle(Double speed, Double fuel) {
+    public Vechicle(double speed, double fuel) {
         this.speed = speed;
         this.fuel = fuel;
     }

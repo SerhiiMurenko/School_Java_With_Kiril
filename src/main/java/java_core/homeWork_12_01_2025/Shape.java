@@ -5,7 +5,7 @@ public  class Shape {
     public Shape() {
     }
 
-    public Double getArea(){
+    public double getArea(){
         return 0.0;
     }
 }
