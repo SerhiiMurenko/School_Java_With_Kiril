@@ -10,7 +10,8 @@ public class Array_List {
         String winter = new String("Winter");
         String spring = new String("Spring");
         String summer = new String("Summer");
-        String autumn = new String("Autumn");
+       // String autumn = new String("Autumn");
+        String autumn = "Autumn";
 
         seasonOfYear.add(winter);
         seasonOfYear.add(spring);
